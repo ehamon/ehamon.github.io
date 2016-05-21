@@ -4,182 +4,182 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>http:/</loc>
-<lastmod>2016-05-21T14:28:51-00:00</lastmod>
+<loc>https://ehamon.github.io/</loc>
+<lastmod>2016-05-21T17:04:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/archives.html</loc>
-<lastmod>2016-05-21T14:28:51-00:00</lastmod>
+<loc>https://ehamon.github.io/archives.html</loc>
+<lastmod>2016-05-21T17:04:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/tags.html</loc>
-<lastmod>2016-05-21T14:28:51-00:00</lastmod>
+<loc>https://ehamon.github.io/tags.html</loc>
+<lastmod>2016-05-21T17:04:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/categories.html</loc>
-<lastmod>2016-05-21T14:28:51-00:00</lastmod>
+<loc>https://ehamon.github.io/categories.html</loc>
+<lastmod>2016-05-21T17:04:48-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/pages/contact/</loc>
+<loc>https://ehamon.github.io/pages/contact/</loc>
 <lastmod>2015-05-11T14:10:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/posts/20150610/nixnote2-sous-debian8-jessie/</loc>
+<loc>https://ehamon.github.io/posts/20150610/nixnote2-sous-debian8-jessie/</loc>
 <lastmod>2015-06-10T12:40:00+02:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/posts/20150605/clash-of-clans-by-a-novice-bot/</loc>
+<loc>https://ehamon.github.io/posts/20150605/clash-of-clans-by-a-novice-bot/</loc>
 <lastmod>2015-06-05T12:40:00+02:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/posts/20150602/montage-d-un-raspberry-2-sur-un-moniteur/</loc>
+<loc>https://ehamon.github.io/posts/20150602/montage-d-un-raspberry-2-sur-un-moniteur/</loc>
 <lastmod>2015-06-02T12:40:00+02:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/posts/20150528/sap-b1-slow-to-start/</loc>
+<loc>https://ehamon.github.io/posts/20150528/sap-b1-slow-to-start/</loc>
 <lastmod>2015-05-28T12:40:00+02:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/posts/20150518/datashield-to-splashid-converter/</loc>
+<loc>https://ehamon.github.io/posts/20150518/datashield-to-splashid-converter/</loc>
 <lastmod>2015-05-18T14:00:00+02:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/posts/20150515/my-gpg-public-encryption-key/</loc>
+<loc>https://ehamon.github.io/posts/20150515/my-gpg-public-encryption-key/</loc>
 <lastmod>2015-05-15T14:00:00+02:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/posts/20130521/affiche-du-python/</loc>
+<loc>https://ehamon.github.io/posts/20130521/affiche-du-python/</loc>
 <lastmod>2013-05-21T20:34:00+02:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/posts/20130521/resoudre-un-sudoku-en-langage-ruby/</loc>
+<loc>https://ehamon.github.io/posts/20130521/resoudre-un-sudoku-en-langage-ruby/</loc>
 <lastmod>2013-05-21T20:34:00+02:00</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/category/computer.html</loc>
+<loc>https://ehamon.github.io/category/computer.html</loc>
 <lastmod>2015-06-10T12:40:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/category/python.html</loc>
+<loc>https://ehamon.github.io/category/python.html</loc>
 <lastmod>2013-05-21T20:34:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/category/ruby.html</loc>
+<loc>https://ehamon.github.io/category/ruby.html</loc>
 <lastmod>2015-05-18T14:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/category/securite.html</loc>
+<loc>https://ehamon.github.io/category/securite.html</loc>
 <lastmod>2015-05-15T14:00:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/category/software.html</loc>
+<loc>https://ehamon.github.io/category/software.html</loc>
 <lastmod>2015-06-05T12:40:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/tag/sap.html</loc>
+<loc>https://ehamon.github.io/tag/sap.html</loc>
 <lastmod>2015-05-28T12:40:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/tag/game.html</loc>
+<loc>https://ehamon.github.io/tag/game.html</loc>
 <lastmod>2015-06-05T12:40:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/tag/bureautique.html</loc>
+<loc>https://ehamon.github.io/tag/bureautique.html</loc>
 <lastmod>2015-06-10T12:40:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/tag/coc.html</loc>
+<loc>https://ehamon.github.io/tag/coc.html</loc>
 <lastmod>2015-06-05T12:40:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/tag/raspberry.html</loc>
+<loc>https://ehamon.github.io/tag/raspberry.html</loc>
 <lastmod>2015-06-02T12:40:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/tag/debian.html</loc>
+<loc>https://ehamon.github.io/tag/debian.html</loc>
 <lastmod>2015-06-10T12:40:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/tag/software.html</loc>
+<loc>https://ehamon.github.io/tag/software.html</loc>
 <lastmod>2015-06-05T12:40:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http:/author/eric-hamon.html</loc>
+<loc>https://ehamon.github.io/author/eric-hamon.html</loc>
 <lastmod>2015-06-10T12:40:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>

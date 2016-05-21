@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>A bit closer to heaven</title><link>https://ehamon.github.io/</link><description></description><lastBuildDate>Fri, 05 Jun 2015 12:40:00 +0200</lastBuildDate><item><title>Clash of Clans played by a novice bot</title><link>https://ehamon.github.io/posts/20150605/clash-of-clans-by-a-novice-bot/</link><description>&lt;p&gt;&lt;img alt="COC-level7" src="/photos/clashofclans/screenshot_2015-05-30-17-21-08a.jpg" /&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A bit closer to heaven</title><link href="https://ehamon.github.io/" rel="alternate"></link><link href="https://ehamon.github.io/feeds/software.atom.xml" rel="self"></link><id>https://ehamon.github.io/</id><updated>2015-06-05T12:40:00+02:00</updated><entry><title>Clash of Clans played by a novice bot</title><link href="https://ehamon.github.io/posts/20150605/clash-of-clans-by-a-novice-bot/" rel="alternate"></link><published>2015-06-05T12:40:00+02:00</published><author><name>Eric HAMON</name></author><id>tag:ehamon.github.io,2015-06-05:posts/20150605/clash-of-clans-by-a-novice-bot/</id><summary type="html">&lt;p&gt;&lt;img alt="COC-level7" src="/photos/clashofclans/screenshot_2015-05-30-17-21-08a.jpg" /&gt;&lt;/p&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
@@ -117,7 +117,7 @@ On peut alors modifier subtilement la disposition des batiments pour se prémuni
 &lt;/ul&gt;
 &lt;p&gt;Bon, je m'égare un peu du sujet.&lt;/p&gt;
 &lt;p&gt;Jouez bien.&lt;/p&gt;
-&lt;hr /&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Eric HAMON</dc:creator><pubDate>Fri, 05 Jun 2015 12:40:00 +0200</pubDate><guid isPermaLink="false">tag:ehamon.github.io,2015-06-05:posts/20150605/clash-of-clans-by-a-novice-bot/</guid><category>coc</category><category>game</category><category>software</category></item><item><title>SAP B1 slow to start</title><link>https://ehamon.github.io/posts/20150528/sap-b1-slow-to-start/</link><description>&lt;p&gt;&lt;img alt="SAP B1" src="/images/20150528/sapb1-logo-01.jpg" /&gt;&lt;/p&gt;
+&lt;hr /&gt;</summary><category term="coc"></category><category term="game"></category><category term="software"></category></entry><entry><title>SAP B1 slow to start</title><link href="https://ehamon.github.io/posts/20150528/sap-b1-slow-to-start/" rel="alternate"></link><published>2015-05-28T12:40:00+02:00</published><author><name>Eric HAMON</name></author><id>tag:ehamon.github.io,2015-05-28:posts/20150528/sap-b1-slow-to-start/</id><summary type="html">&lt;p&gt;&lt;img alt="SAP B1" src="/images/20150528/sapb1-logo-01.jpg" /&gt;&lt;/p&gt;
 &lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Users of SAP-B1 (v8.82) complained when our IT team switched the SAP server to a datacenter.&lt;/p&gt;
 &lt;p&gt;Migrated to a datacenter, and despite huge improvements ( increased number of processors, better frequency, memory, higher IO disks), SAP-B1 began to dissatisfy users.&lt;/p&gt;
@@ -169,4 +169,4 @@ You are lucky is the 'user network' is the first of the list. The process start 
 &lt;p&gt;SAP B1 start in less than 20 seconds. Users are happy. The boss too.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Time is money. ;-)&lt;/p&gt;
-&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Eric HAMON</dc:creator><pubDate>Thu, 28 May 2015 12:40:00 +0200</pubDate><guid isPermaLink="false">tag:ehamon.github.io,2015-05-28:posts/20150528/sap-b1-slow-to-start/</guid><category>sap</category></item></channel></rss>
+&lt;/blockquote&gt;</summary><category term="sap"></category></entry></feed>

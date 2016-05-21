@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>A bit closer to heaven</title><link>https://ehamon.github.io/</link><description></description><lastBuildDate>Wed, 10 Jun 2015 12:40:00 +0200</lastBuildDate><item><title>Nixnote2 sous Debian8 Jessie</title><link>https://ehamon.github.io/posts/20150610/nixnote2-sous-debian8-jessie/</link><description>&lt;h2 id="evernote-le-bloc-note-dans-le-cloud"&gt;Evernote, le bloc-note dans le cloud&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A bit closer to heaven</title><link href="https://ehamon.github.io/" rel="alternate"></link><link href="https://ehamon.github.io/feeds/all.atom.xml" rel="self"></link><id>https://ehamon.github.io/</id><updated>2015-06-10T12:40:00+02:00</updated><entry><title>Nixnote2 sous Debian8 Jessie</title><link href="https://ehamon.github.io/posts/20150610/nixnote2-sous-debian8-jessie/" rel="alternate"></link><published>2015-06-10T12:40:00+02:00</published><author><name>Eric HAMON</name></author><id>tag:ehamon.github.io,2015-06-10:posts/20150610/nixnote2-sous-debian8-jessie/</id><summary type="html">&lt;h2 id="evernote-le-bloc-note-dans-le-cloud"&gt;Evernote, le bloc-note dans le cloud&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="evernote" src="/images/20150610/evernote1.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://evernote.com/intl/fr/"&gt;Evernote&lt;/a&gt; est un logiciel de prise de note que j'utilise quotidiennement.&lt;/p&gt;
 &lt;p&gt;Je n'ai pas encore trouvé de meilleur outil. Je m'étonne même qu'Evernote n'ai pas été déjà racheté par un &lt;em&gt;prédateur&lt;/em&gt; de sociétés high-tech sur Internet (Facebook, Google, Microsoft,...). &lt;/p&gt;
@@ -78,7 +78,7 @@ sudo dpkg -i nixnote2-2.0-beta3_amd64.modified.deb
 
 &lt;p&gt;Voilà, voilà.&lt;/p&gt;
 &lt;p&gt;It runs as expect!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="nixnote-about" src="/images/20150610/nixnote2-info.png" /&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Eric HAMON</dc:creator><pubDate>Wed, 10 Jun 2015 12:40:00 +0200</pubDate><guid isPermaLink="false">tag:ehamon.github.io,2015-06-10:posts/20150610/nixnote2-sous-debian8-jessie/</guid><category>debian</category><category>bureautique</category></item><item><title>Clash of Clans played by a novice bot</title><link>https://ehamon.github.io/posts/20150605/clash-of-clans-by-a-novice-bot/</link><description>&lt;p&gt;&lt;img alt="COC-level7" src="/photos/clashofclans/screenshot_2015-05-30-17-21-08a.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="nixnote-about" src="/images/20150610/nixnote2-info.png" /&gt;&lt;/p&gt;</summary><category term="debian"></category><category term="bureautique"></category></entry><entry><title>Clash of Clans played by a novice bot</title><link href="https://ehamon.github.io/posts/20150605/clash-of-clans-by-a-novice-bot/" rel="alternate"></link><published>2015-06-05T12:40:00+02:00</published><author><name>Eric HAMON</name></author><id>tag:ehamon.github.io,2015-06-05:posts/20150605/clash-of-clans-by-a-novice-bot/</id><summary type="html">&lt;p&gt;&lt;img alt="COC-level7" src="/photos/clashofclans/screenshot_2015-05-30-17-21-08a.jpg" /&gt;&lt;/p&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;
@@ -196,7 +196,7 @@ On peut alors modifier subtilement la disposition des batiments pour se prémuni
 &lt;/ul&gt;
 &lt;p&gt;Bon, je m'égare un peu du sujet.&lt;/p&gt;
 &lt;p&gt;Jouez bien.&lt;/p&gt;
-&lt;hr /&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Eric HAMON</dc:creator><pubDate>Fri, 05 Jun 2015 12:40:00 +0200</pubDate><guid isPermaLink="false">tag:ehamon.github.io,2015-06-05:posts/20150605/clash-of-clans-by-a-novice-bot/</guid><category>coc</category><category>game</category><category>software</category></item><item><title>Montage d'un Raspberry 2 sur un moniteur</title><link>https://ehamon.github.io/posts/20150602/montage-d-un-raspberry-2-sur-un-moniteur/</link><description>&lt;p&gt;&lt;img alt="raspberry01" src="/photos/201505raspberry/20150530_140436a.jpg" /&gt;&lt;/p&gt;
+&lt;hr /&gt;</summary><category term="coc"></category><category term="game"></category><category term="software"></category></entry><entry><title>Montage d'un Raspberry 2 sur un moniteur</title><link href="https://ehamon.github.io/posts/20150602/montage-d-un-raspberry-2-sur-un-moniteur/" rel="alternate"></link><published>2015-06-02T12:40:00+02:00</published><author><name>Eric HAMON</name></author><id>tag:ehamon.github.io,2015-06-02:posts/20150602/montage-d-un-raspberry-2-sur-un-moniteur/</id><summary type="html">&lt;p&gt;&lt;img alt="raspberry01" src="/photos/201505raspberry/20150530_140436a.jpg" /&gt;&lt;/p&gt;
 &lt;h2 id="cout-approximatif"&gt;Cout approximatif&lt;/h2&gt;
 &lt;p&gt;(les éléments sont disponibles sur Amazon)&lt;/p&gt;
 &lt;ul&gt;
@@ -219,7 +219,7 @@ On peut alors modifier subtilement la disposition des batiments pour se prémuni
 &lt;li&gt;LibreOffice&lt;/li&gt;
 &lt;li&gt;... &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Et du temps évidemment. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Eric HAMON</dc:creator><pubDate>Tue, 02 Jun 2015 12:40:00 +0200</pubDate><guid isPermaLink="false">tag:ehamon.github.io,2015-06-02:posts/20150602/montage-d-un-raspberry-2-sur-un-moniteur/</guid><category>raspberry</category></item><item><title>SAP B1 slow to start</title><link>https://ehamon.github.io/posts/20150528/sap-b1-slow-to-start/</link><description>&lt;p&gt;&lt;img alt="SAP B1" src="/images/20150528/sapb1-logo-01.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Et du temps évidemment. &lt;/p&gt;</summary><category term="raspberry"></category></entry><entry><title>SAP B1 slow to start</title><link href="https://ehamon.github.io/posts/20150528/sap-b1-slow-to-start/" rel="alternate"></link><published>2015-05-28T12:40:00+02:00</published><author><name>Eric HAMON</name></author><id>tag:ehamon.github.io,2015-05-28:posts/20150528/sap-b1-slow-to-start/</id><summary type="html">&lt;p&gt;&lt;img alt="SAP B1" src="/images/20150528/sapb1-logo-01.jpg" /&gt;&lt;/p&gt;
 &lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Users of SAP-B1 (v8.82) complained when our IT team switched the SAP server to a datacenter.&lt;/p&gt;
 &lt;p&gt;Migrated to a datacenter, and despite huge improvements ( increased number of processors, better frequency, memory, higher IO disks), SAP-B1 began to dissatisfy users.&lt;/p&gt;
@@ -271,7 +271,7 @@ You are lucky is the 'user network' is the first of the list. The process start 
 &lt;p&gt;SAP B1 start in less than 20 seconds. Users are happy. The boss too.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Time is money. ;-)&lt;/p&gt;
-&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Eric HAMON</dc:creator><pubDate>Thu, 28 May 2015 12:40:00 +0200</pubDate><guid isPermaLink="false">tag:ehamon.github.io,2015-05-28:posts/20150528/sap-b1-slow-to-start/</guid><category>sap</category></item><item><title>"Datashield to SplashID converter"</title><link>https://ehamon.github.io/posts/20150518/datashield-to-splashid-converter/</link><description>&lt;h1 id="preface"&gt;Preface #&lt;/h1&gt;
+&lt;/blockquote&gt;</summary><category term="sap"></category></entry><entry><title>"Datashield to SplashID converter"</title><link href="https://ehamon.github.io/posts/20150518/datashield-to-splashid-converter/" rel="alternate"></link><published>2015-05-18T14:00:00+02:00</published><author><name>Eric HAMON</name></author><id>tag:ehamon.github.io,2015-05-18:posts/20150518/datashield-to-splashid-converter/</id><summary type="html">&lt;h1 id="preface"&gt;Preface #&lt;/h1&gt;
 &lt;p&gt;This post was written in 2008. It is still available on my first personal &lt;em&gt;dokuwiki&lt;/em&gt; &lt;a href="(http://ehamon.free.fr/datashield2splashid/doku.php)"&gt;1&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I convert the old wiki in Markdown format, for the future.
 Google signals me by email that my very old Dokuwiki don't follow  responsive design.
@@ -453,7 +453,7 @@ people migrate from datashield to splashId.&lt;/p&gt;
 &lt;p&gt;Author: Eric HAMON &lt;a href="&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#116;&amp;#111;&amp;#58;&amp;#101;&amp;#114;&amp;#105;&amp;#99;&amp;#64;&amp;#101;&amp;#104;&amp;#97;&amp;#109;&amp;#111;&amp;#110;&amp;#46;&amp;#102;&amp;#114;"&gt;&amp;#101;&amp;#114;&amp;#105;&amp;#99;&amp;#64;&amp;#101;&amp;#104;&amp;#97;&amp;#109;&amp;#111;&amp;#110;&amp;#46;&amp;#102;&amp;#114;&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id="support"&gt;Support&lt;/h1&gt;
 &lt;p&gt;Well. Feel free to alter scripts. I don't use them
-anymore. You know why. 8-)&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Eric HAMON</dc:creator><pubDate>Mon, 18 May 2015 14:00:00 +0200</pubDate><guid isPermaLink="false">tag:ehamon.github.io,2015-05-18:posts/20150518/datashield-to-splashid-converter/</guid></item><item><title>"My GPG Public Encryption Key"</title><link>https://ehamon.github.io/posts/20150515/my-gpg-public-encryption-key/</link><description>&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    pub   2048R/D2CC909A 2013-05-11 [expire : 2017-01-01]
+anymore. You know why. 8-)&lt;/p&gt;</summary></entry><entry><title>"My GPG Public Encryption Key"</title><link href="https://ehamon.github.io/posts/20150515/my-gpg-public-encryption-key/" rel="alternate"></link><published>2015-05-15T14:00:00+02:00</published><author><name>Eric HAMON</name></author><id>tag:ehamon.github.io,2015-05-15:posts/20150515/my-gpg-public-encryption-key/</id><summary type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;    pub   2048R/D2CC909A 2013-05-11 [expire : 2017-01-01]
     Empreinte de la clef = 4E67 4CFE 0208 BFD9 5F7C  305F 131D BE59 D2CC 909A
     uid                  Eric HAMON &amp;lt;eric@ehamon.fr&amp;gt;
     uid                  [jpeg image of size 5059]
@@ -607,12 +607,12 @@ uWJ98eiZYzQDJinCts0ZdFz2B1rhQub8dOPcTfeJYE0DpN2hZSie9loptAnX28ON
 i96rwZYVWTIYsUbuts6cNQ==
 =KCaV
 -----END PGP PUBLIC KEY BLOCK----- 
-&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Eric HAMON</dc:creator><pubDate>Fri, 15 May 2015 14:00:00 +0200</pubDate><guid isPermaLink="false">tag:ehamon.github.io,2015-05-15:posts/20150515/my-gpg-public-encryption-key/</guid></item><item><title>Affiche du python</title><link>https://ehamon.github.io/posts/20130521/affiche-du-python/</link><description>&lt;hr /&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary></entry><entry><title>Affiche du python</title><link href="https://ehamon.github.io/posts/20130521/affiche-du-python/" rel="alternate"></link><published>2013-05-21T20:34:00+02:00</published><author><name>Eric HAMON</name></author><id>tag:ehamon.github.io,2013-05-21:posts/20130521/affiche-du-python/</id><summary type="html">&lt;hr /&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Hello world!&amp;#39;&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;hr /&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Eric HAMON</dc:creator><pubDate>Tue, 21 May 2013 20:34:00 +0200</pubDate><guid isPermaLink="false">tag:ehamon.github.io,2013-05-21:posts/20130521/affiche-du-python/</guid></item><item><title>Resoudre un sudoku en langage ruby</title><link>https://ehamon.github.io/posts/20130521/resoudre-un-sudoku-en-langage-ruby/</link><description>&lt;p&gt;Voici un script ruby pour résoudre de manière élégante les problèmes Sudoku.&lt;/p&gt;
+&lt;hr /&gt;</summary></entry><entry><title>Resoudre un sudoku en langage ruby</title><link href="https://ehamon.github.io/posts/20130521/resoudre-un-sudoku-en-langage-ruby/" rel="alternate"></link><published>2013-05-21T20:34:00+02:00</published><author><name>Eric HAMON</name></author><id>tag:ehamon.github.io,2013-05-21:posts/20130521/resoudre-un-sudoku-en-langage-ruby/</id><summary type="html">&lt;p&gt;Voici un script ruby pour résoudre de manière élégante les problèmes Sudoku.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;sudoku&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class="no"&gt;ENDSUDOKU&lt;/span&gt;
 &lt;span class="sh"&gt; .  .  .  1  .  .  .  6  4&lt;/span&gt;
 &lt;span class="sh"&gt; 5  .  .  .  7  .  3  .  .&lt;/span&gt;
@@ -682,4 +682,4 @@ i96rwZYVWTIYsUbuts6cNQ==
 &lt;span class="k"&gt;end&lt;/span&gt;
 
 &lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="no"&gt;Sudoku&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sudoku&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;solve&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;result&lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="k"&gt;break&lt;/span&gt; &lt;span class="n"&gt;result&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;to_s&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Eric HAMON</dc:creator><pubDate>Tue, 21 May 2013 20:34:00 +0200</pubDate><guid isPermaLink="false">tag:ehamon.github.io,2013-05-21:posts/20130521/resoudre-un-sudoku-en-langage-ruby/</guid></item></channel></rss>
+&lt;/pre&gt;&lt;/div&gt;</summary></entry></feed>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>A bit closer to heaven</title><link>https://ehamon.github.io/</link><description></description><lastBuildDate>Wed, 10 Jun 2015 12:40:00 +0200</lastBuildDate><item><title>Nixnote2 sous Debian8 Jessie</title><link>https://ehamon.github.io/posts/20150610/nixnote2-sous-debian8-jessie/</link><description>&lt;h2 id="evernote-le-bloc-note-dans-le-cloud"&gt;Evernote, le bloc-note dans le cloud&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A bit closer to heaven</title><link href="https://ehamon.github.io/" rel="alternate"></link><link href="https://ehamon.github.io/feeds/computer.atom.xml" rel="self"></link><id>https://ehamon.github.io/</id><updated>2015-06-10T12:40:00+02:00</updated><entry><title>Nixnote2 sous Debian8 Jessie</title><link href="https://ehamon.github.io/posts/20150610/nixnote2-sous-debian8-jessie/" rel="alternate"></link><published>2015-06-10T12:40:00+02:00</published><author><name>Eric HAMON</name></author><id>tag:ehamon.github.io,2015-06-10:posts/20150610/nixnote2-sous-debian8-jessie/</id><summary type="html">&lt;h2 id="evernote-le-bloc-note-dans-le-cloud"&gt;Evernote, le bloc-note dans le cloud&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="evernote" src="/images/20150610/evernote1.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://evernote.com/intl/fr/"&gt;Evernote&lt;/a&gt; est un logiciel de prise de note que j'utilise quotidiennement.&lt;/p&gt;
 &lt;p&gt;Je n'ai pas encore trouvé de meilleur outil. Je m'étonne même qu'Evernote n'ai pas été déjà racheté par un &lt;em&gt;prédateur&lt;/em&gt; de sociétés high-tech sur Internet (Facebook, Google, Microsoft,...). &lt;/p&gt;
@@ -78,7 +78,7 @@ sudo dpkg -i nixnote2-2.0-beta3_amd64.modified.deb
 
 &lt;p&gt;Voilà, voilà.&lt;/p&gt;
 &lt;p&gt;It runs as expect!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="nixnote-about" src="/images/20150610/nixnote2-info.png" /&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Eric HAMON</dc:creator><pubDate>Wed, 10 Jun 2015 12:40:00 +0200</pubDate><guid isPermaLink="false">tag:ehamon.github.io,2015-06-10:posts/20150610/nixnote2-sous-debian8-jessie/</guid><category>debian</category><category>bureautique</category></item><item><title>Montage d'un Raspberry 2 sur un moniteur</title><link>https://ehamon.github.io/posts/20150602/montage-d-un-raspberry-2-sur-un-moniteur/</link><description>&lt;p&gt;&lt;img alt="raspberry01" src="/photos/201505raspberry/20150530_140436a.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="nixnote-about" src="/images/20150610/nixnote2-info.png" /&gt;&lt;/p&gt;</summary><category term="debian"></category><category term="bureautique"></category></entry><entry><title>Montage d'un Raspberry 2 sur un moniteur</title><link href="https://ehamon.github.io/posts/20150602/montage-d-un-raspberry-2-sur-un-moniteur/" rel="alternate"></link><published>2015-06-02T12:40:00+02:00</published><author><name>Eric HAMON</name></author><id>tag:ehamon.github.io,2015-06-02:posts/20150602/montage-d-un-raspberry-2-sur-un-moniteur/</id><summary type="html">&lt;p&gt;&lt;img alt="raspberry01" src="/photos/201505raspberry/20150530_140436a.jpg" /&gt;&lt;/p&gt;
 &lt;h2 id="cout-approximatif"&gt;Cout approximatif&lt;/h2&gt;
 &lt;p&gt;(les éléments sont disponibles sur Amazon)&lt;/p&gt;
 &lt;ul&gt;
@@ -101,4 +101,4 @@ sudo dpkg -i nixnote2-2.0-beta3_amd64.modified.deb
 &lt;li&gt;LibreOffice&lt;/li&gt;
 &lt;li&gt;... &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Et du temps évidemment. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Eric HAMON</dc:creator><pubDate>Tue, 02 Jun 2015 12:40:00 +0200</pubDate><guid isPermaLink="false">tag:ehamon.github.io,2015-06-02:posts/20150602/montage-d-un-raspberry-2-sur-un-moniteur/</guid><category>raspberry</category></item></channel></rss>
+&lt;p&gt;Et du temps évidemment. &lt;/p&gt;</summary><category term="raspberry"></category></entry></feed>
