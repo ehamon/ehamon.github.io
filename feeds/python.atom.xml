@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>A bit closer to heaven</title><link href="https://ehamon.github.io/" rel="alternate"></link><link href="https://ehamon.github.io/feeds/python.atom.xml" rel="self"></link><id>https://ehamon.github.io/</id><updated>2013-05-21T20:34:00+02:00</updated><entry><title>Affiche du python</title><link href="https://ehamon.github.io/posts/20130521/affiche-du-python/" rel="alternate"></link><published>2013-05-21T20:34:00+02:00</published><author><name>Eric HAMON</name></author><id>tag:ehamon.github.io,2013-05-21:posts/20130521/affiche-du-python/</id><summary type="html">&lt;hr /&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Hello world!&amp;#39;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;hr /&gt;</summary></entry></feed>
