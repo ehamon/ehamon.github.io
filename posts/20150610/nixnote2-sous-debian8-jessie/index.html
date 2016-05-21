@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Eric HAMON" />
+        <meta name="copyright" content="Eric HAMON" />
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="debian, bureautique, computer, " />
+
+<meta property="og:title" content="Nixnote2 sous Debian8 Jessie "/>
+<meta property="og:url" content="http:/posts/20150610/nixnote2-sous-debian8-jessie/" />
+<meta property="og:description" content="Installation de Nixnote2 sous Debian Jessie" />
+<meta property="og:site_name" content="A bit closer to heaven" />
+<meta property="og:article:author" content="Eric HAMON" />
+<meta property="og:article:published_time" content="2015-06-10T12:32:00+02:00" />
+<meta property="" content="2015-06-10T12:40:00+02:00" />
+<meta name="twitter:title" content="Nixnote2 sous Debian8 Jessie ">
+<meta name="twitter:description" content="Installation de Nixnote2 sous Debian Jessie">
+
+        <title>Nixnote2 sous Debian8 Jessie  · A bit closer to heaven
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http:/theme/css/pygments.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http:/theme/tipuesearch/tipuesearch.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http:/theme/css/elegant.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http:/theme/css/custom.css" media="screen">
+        <link href="http:/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="A bit closer to heaven - Full RSS Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http:/"><span class=site-name>A bit closer to heaven</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http:">Home</a></li>
+                            <li ><a href="http:/pages/contact/">Contact</a></li>
+                            <li ><a href="http:/categories.html">Categories</a></li>
+                            <li ><a href="http:/tags.html">Tags</a></li>
+                            <li ><a href="http:/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http:/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="http:/posts/20150610/nixnote2-sous-debian8-jessie/"> Nixnote2 sous Debian8 Jessie  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            
+            <h2 id="evernote-le-bloc-note-dans-le-cloud">Evernote, le bloc-note dans le cloud</h2>
+<p><img alt="evernote" src="/images/20150610/evernote1.jpg" /></p>
+<p><a href="https://evernote.com/intl/fr/">Evernote</a> est un logiciel de prise de note que j'utilise quotidiennement.</p>
+<p>Je n'ai pas encore trouvé de meilleur outil. Je m'étonne même qu'Evernote n'ai pas été déjà racheté par un <em>prédateur</em> de sociétés high-tech sur Internet (Facebook, Google, Microsoft,...). </p>
+<p>Vers la mi-2012, date à laquelle Google mis fin à son produit <em>Google Notebook</em>, échaudé , j'ai été contraint de <em>porter</em> mes notes vers une application <em>alternative</em>. Evernote a retenu mon attention. Prometteur et stable, Evernote ne me déçoit pas. Bien au contraire, il s'est bonifié avec le temps. La référence en la matière, selon moi.</p>
+<p>Mes critères pour ce type d'outils:</p>
+<ul>
+<li>Interface web (80% de mes accès)</li>
+<li>Existence d'un client lourd pour smartphone (android) qui doit prendre en compte les spécificités multimédia de la plateforme: appareil photo, sons, esquisses à la <em>main levée</em>, uploader des photos et pièces jointes,...</li>
+<li>Possibilité d'import de <em>notes</em> de produit concurrents. (critère moins pertinent maintenant)</li>
+<li>Pérennité dans le temps. (être à l'abri des prédation/achat des sociétés qui disparaissent avec leur produit dans la sphère internet)</li>
+<li>Possibilité d'export des données (je veux garder la maitrise de mes données)</li>
+<li>Avoir un client lourd sur chaque plateforme que j'utilise habituellement: Windows et Linux</li>
+<li>Possibilité de consultation/mise à jour des notes en mode <em>offline</em> (sans accès internet)</li>
+<li>Pas ou peu de limite dans le volume transféré dans le système (la version de base gratuite Evernote me suffisait pleinement)</li>
+</ul>
+<p><img alt="evernote-cloud" src="/images/20150610/evernote2.jpg" /></p>
+<p><em>Evernote</em> répond à ces critères sauf pour le client lourd qui manque à l'appel dans un écosystème <em>linux</em>. La situation n'est pas catastrophique. Une solution existe.</p>
+<p>NB: Je precise que je me suis abonné à Evernote, pour les soutenir évidemment et aussi pour utiliser pontuellement l'accès sur mes tablettes android.</p>
+<h2 id="nixnote">Nixnote</h2>
+<p>Un groupe de développeurs s'est entiché de construire un système <em>client lourd</em> (multi-plateforme) pour Evernote. Le produit s'appelle <a href="http://sourceforge.net/projects/nevernote/">Nixnote</a>.</p>
+<p><img alt="nixnote" src="/images/20150610/nixnote-evernote0.jpg" /></p>
+<p>Je l'utilise principalement pour faire un <em>backup</em> régulier, en local, de mes fiches Evernote.</p>
+<p>En cas d'indisponibilité du site Evernote et/ou de la connexion internet de la maison, je peux ainsi travailler sur mes fiches et <em>resynchroniser</em> par la suite, mes différents environnements.</p>
+<p>Nixnote fonctionnait bien jusqu'à peu sur mon poste de travail Debian.</p>
+<p>Un matin, j'ai constaté que la <em>synchronisation</em> ne fonctionnait plus, signe que les API Evernote ont évoluées. Il était temps de mettre à jour Nixnote sur mon poste.</p>
+<h3 id="incompatibilite-de-la-nouvelle-version-nixnote">incompatibilité de la nouvelle version Nixnote</h3>
+<p>Je désinstalle la version installée</p>
+<div class="highlight"><pre><span></span>sudo apt-get remove nixnote
+</pre></div>
+
+
+<p>Puis télécharge la dernière version en date de nixnote <em>nixnote2-2.0-beta3_amd64.deb</em> et l'installe par:</p>
+<div class="highlight"><pre><span></span>sudo dpkg -i nixnote2-2.0-beta3_amd64.deb
+</pre></div>
+
+
+<p>Et paff. çà coince. Le paquet ne s'installe pas car une dépendance d'une librairie est non satisfaite.</p>
+<p>Explication:
+Nixnote a besoin d'une version de la librairie <em>libpoppler</em> inférieure ou égale à <em>44</em>. Or sur la toute récente <em>Debian 8</em>, on dispose d'une version plus récente: <em>libpoppler46</em> (recherche par: <em>sudo apt-cache search libpoppler4</em>)</p>
+<p>L'astuce consiste à modifier le paquet <em>à problème</em> pour lever la <em>dépendance</em>. C'est un problème assez récurrent quand le paquet n'est pas dans un dépot officiel <em>debian</em>.</p>
+<p>J'ai suivi le HOWTO du forum <a href="http://ubuntuforums.org/showthread.php?t=636724">ubuntuforums.org</a></p>
+<ul>
+<li>Copier le fichier <em>videbcontrol</em> dans le répertoire <em>/usr/local/bin</em>.</li>
+</ul>
+<div class="highlight"><pre><span></span>videbcontrol nixnote2-2.0-beta3_amd64.deb  
+</pre></div>
+
+
+<ul>
+<li>On se retrouve sous l'éditeur texte <em><a href="http://fr.wikipedia.org/wiki/Vim">vim</a></em> avec le contenu suivant:</li>
+</ul>
+<div class="highlight"><pre><span></span><span class="n">Package</span><span class="o">:</span> <span class="n">nixnote2</span>
+<span class="n">Version</span><span class="o">:</span> <span class="mf">2.0</span><span class="o">-</span><span class="n">beta3</span>
+<span class="n">Section</span><span class="o">:</span> <span class="n">x11</span>
+<span class="n">Priority</span><span class="o">:</span> <span class="n">optional</span>
+<span class="n">Architecture</span><span class="o">:</span> <span class="n">amd64</span>
+<span class="n">Installed</span><span class="o">-</span><span class="n">Size</span><span class="o">:</span> <span class="mi">133120</span>
+<span class="n">Depends</span><span class="o">:</span> <span class="n">libc6</span><span class="o">,</span> <span class="n">libhunspell</span><span class="o">-</span><span class="mf">1.3</span><span class="o">-</span><span class="mi">0</span><span class="o">,</span> <span class="n">libpoppler</span><span class="o">-</span><span class="n">qt4</span><span class="o">-</span><span class="mi">4</span><span class="o">,</span> <span class="o">&gt;</span><span class="n">libqtwebkit4</span><span class="o">,</span> <span class="n">libqt4</span><span class="o">-</span><span class="n">sql</span><span class="o">,</span> <span class="n">libqt4</span><span class="o">-</span><span class="n">sql</span><span class="o">-</span><span class="n">sqlite</span><span class="o">,</span> <span class="n">libqt4</span><span class="o">-</span><span class="n">xml</span><span class="o">,</span> <span class="n">libqtgui4</span><span class="o">,</span> <span class="n">libqt4</span><span class="o">-</span><span class="n">network</span><span class="o">,</span> <span class="n">libqtcore4</span><span class="o">,</span> <span class="n">libpng12</span><span class="o">-</span><span class="mi">0</span><span class="o">,</span> <span class="n">libpoppler28</span> <span class="o">|</span> <span class="n">libpoppler43</span> <span class="o">|</span> <span class="n">libpoppler44</span><span class="o">,</span> <span class="n">libsqlite3</span><span class="o">-</span><span class="mi">0</span><span class="o">,</span> <span class="n">libtbb2</span><span class="o">,</span> <span class="n">libopenexr6</span><span class="o">,</span> <span class="n">tidy</span><span class="o">,</span> <span class="n">libavcodec53</span> <span class="o">|</span> <span class="n">libavcodec54</span> <span class="o">|</span> <span class="n">libavcodec</span><span class="o">-</span><span class="n">extra</span><span class="o">-</span><span class="mi">53</span> <span class="o">|</span> <span class="n">libavcodec</span><span class="o">-</span><span class="n">extra</span><span class="o">-</span><span class="mi">54</span><span class="o">,</span>  <span class="n">libavformat53</span> <span class="o">|</span> <span class="n">libavformat54</span> <span class="o">|</span> <span class="o">&gt;</span><span class="n">libavformat</span><span class="o">-</span><span class="n">extra</span><span class="o">-</span><span class="mi">53</span> <span class="o">|</span> <span class="n">libavformat</span><span class="o">-</span><span class="n">extra</span><span class="o">-</span><span class="mi">54</span><span class="o">,</span> <span class="n">libswscale2</span> <span class="o">|</span> <span class="n">libswscale</span><span class="o">-</span><span class="n">extra</span><span class="o">-</span><span class="mi">2</span><span class="o">,</span> <span class="n">libdc1394</span><span class="o">-</span><span class="mi">22</span><span class="o">,</span> <span class="n">libopencv</span><span class="o">-</span><span class="n">core2</span><span class="o">.</span><span class="mi">4</span><span class="o">,</span> <span class="n">libopencv</span><span class="o">-</span><span class="n">highgui2</span><span class="o">.</span><span class="mi">4</span>
+<span class="n">Recommends</span><span class="o">:</span> <span class="n">mimetex</span><span class="o">,</span> <span class="n">libreoffice</span><span class="o">-</span><span class="n">common</span><span class="o">,</span> <span class="n">openjdk</span><span class="o">-</span><span class="mi">7</span><span class="o">-</span><span class="n">jre</span> <span class="o">|</span> <span class="n">openjdk</span><span class="o">-</span><span class="mi">7</span><span class="o">-</span><span class="n">jdk</span> <span class="o">|</span> <span class="n">sun</span><span class="o">-</span><span class="n">java7</span><span class="o">-</span><span class="n">jdk</span> <span class="o">|</span> <span class="n">sun</span><span class="o">-</span><span class="n">java7</span><span class="o">-</span><span class="n">jre</span> <span class="o">|</span> <span class="n">java7</span><span class="o">-</span><span class="n">sdk</span> <span class="o">|</span> <span class="n">java7</span><span class="o">-</span><span class="n">runtime</span> <span class="o">|</span> <span class="k">default</span><span class="o">-</span><span class="n">jre</span>
+<span class="n">Maintainer</span><span class="o">:</span> <span class="n">Randy</span> <span class="n">Baumgarte</span> <span class="o">&lt;</span><span class="n">randy</span><span class="err">@</span><span class="n">fbn</span><span class="o">.</span><span class="na">cx</span><span class="o">&gt;</span>
+<span class="n">Description</span><span class="o">:</span> <span class="n">Open</span> <span class="n">Source</span> <span class="n">Evernote</span> <span class="n">client</span><span class="o">.</span>
+ <span class="n">NixNote</span> <span class="k">is</span> <span class="n">a</span> <span class="n">client</span> <span class="k">for</span> <span class="n">the</span> <span class="n">Evernote</span> <span class="n">service</span> <span class="o">(</span><span class="n">www</span><span class="o">.</span><span class="na">evernote</span><span class="o">.</span><span class="na">com</span><span class="o">).</span>  <span class="n">It</span>  <span class="n">will</span> <span class="n">allow</span> <span class="n">synchronization</span> <span class="n">and</span> <span class="n">editing</span> <span class="n">of</span> <span class="n">notes</span> <span class="n">from</span> <span class="n">your</span> <span class="n">local</span> <span class="n">system</span><span class="o">.</span>
+</pre></div>
+
+
+<ul>
+<li>Ajouter <em>libpoppler46</em> dans la ligne <em>Depends</em></li>
+<li>Sauver le fichier et quitter l'éditeur. (:wq)</li>
+<li>Le fichier <em>nixnote2-2.0-beta3_amd64.modified.deb</em> est généré.</li>
+<li>On installe finalement le nouveau paquet.</li>
+</ul>
+<div class="highlight"><pre><span></span>sudo apt-get remove nixnote2
+sudo dpkg -i nixnote2-2.0-beta3_amd64.modified.deb
+</pre></div>
+
+
+<p>Voilà, voilà.</p>
+<p>It runs as expect!</p>
+<p><img alt="nixnote-about" src="/images/20150610/nixnote2-info.png" /></p>
+
+
+            
+            
+            <hr/>
+            <aside>
+            <nav>
+            <ul class="articles-timeline">
+                <li class="previous-article">« <a href="http:/posts/20150605/clash-of-clans-by-a-novice-bot/" title="Previous: Clash of Clans played by a novice bot">Clash of Clans played by a novice bot</a></li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2015-06-10T12:32:00+02:00">juin 10, 2015</time>
+
+<h4>Last Updated</h4>
+<time datetime="2015-06-10T12:40:00+02:00">juin 10, 2015</time>
+
+            <h4>Category</h4>
+            <a class="category-link" href="http:/categories.html#computer-ref">computer</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="http:/tags.html#bureautique-ref">bureautique
+                    <span>1</span>
+</a></li>
+                <li><a href="http:/tags.html#debian-ref">debian
+                    <span>1</span>
+</a></li>
+            </ul>
+<h4>Contact</h4>
+    <a href="https://ehamon.fr/feeds/all.rss.xml" title="Subscribe in a reader" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-rss sidebar-social-links"></i></a>
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>            <script src="http:/theme/jquery.min.js"></script>
+        <script src="http:/theme/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : http://oncrashreboot.com/pelican-elegant -->
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Eric HAMON" />
+        <meta name="copyright" content="Eric HAMON" />
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="sap, software, " />
+
+<meta property="og:title" content="SAP B1 slow to start "/>
+<meta property="og:url" content="http:/posts/20150528/sap-b1-slow-to-start/" />
+<meta property="og:description" content="a tip to boost SAP B1 startup" />
+<meta property="og:site_name" content="A bit closer to heaven" />
+<meta property="og:article:author" content="Eric HAMON" />
+<meta property="og:article:published_time" content="2015-05-28T12:00:00+02:00" />
+<meta property="" content="2015-05-28T12:40:00+02:00" />
+<meta name="twitter:title" content="SAP B1 slow to start ">
+<meta name="twitter:description" content="a tip to boost SAP B1 startup">
+
+        <title>SAP B1 slow to start  · A bit closer to heaven
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http:/theme/css/pygments.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http:/theme/tipuesearch/tipuesearch.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http:/theme/css/elegant.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="http:/theme/css/custom.css" media="screen">
+        <link href="http:/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="A bit closer to heaven - Full RSS Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="http:/"><span class=site-name>A bit closer to heaven</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="http:">Home</a></li>
+                            <li ><a href="http:/pages/contact/">Contact</a></li>
+                            <li ><a href="http:/categories.html">Categories</a></li>
+                            <li ><a href="http:/tags.html">Tags</a></li>
+                            <li ><a href="http:/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="http:/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="http:/posts/20150528/sap-b1-slow-to-start/"> SAP B1 slow to start  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            
+            <p><img alt="SAP B1" src="/images/20150528/sapb1-logo-01.jpg" /></p>
+<h2 id="introduction">Introduction</h2>
+<p>Users of SAP-B1 (v8.82) complained when our IT team switched the SAP server to a datacenter.</p>
+<p>Migrated to a datacenter, and despite huge improvements ( increased number of processors, better frequency, memory, higher IO disks), SAP-B1 began to dissatisfy users.</p>
+<p>Before, SAP-b1 server had a unique LAN-network card. The server didn't met any/specific trouble. Fast, responsive, accurate, the server did the job.</p>
+<p>When users tried to login to SAP Business One, they found a long delay during start-up. All of them were affected. 3 minutes to get the login form, and 3 more minutes to get the main SAP-B1 window. (add a couple of minutes to start addons)</p>
+<p>First, we thought that some kind of network slow down the process of SAP-B1 to locate the licensing server.</p>
+<p>Despite searchs and googling, none of tips or recips pull through.
+Most of discuss try to resolve the same issues on the server side. 'disconnect/disable network cards and enable them after reboot, and so on...</p>
+<p>In our situation, we haven't full admin access to the server. We are not allowed to reboot at will the production server, and we are forbidden to play with hardware tests.</p>
+<p>Then I think that if everybody suffer the same pity behavior on SAP-B1 installations then nobody try to find a solution on the other side, on the computer of the final user. (Windows7 mainly)</p>
+<p>I search and find a clean turn-around on slow starts of B1. It seems stupid but it rules wery well to our issues. Hope that yours too.</p>
+<h2 id="some-steps-to-solve-slow-starts-of-b1">Some steps to solve slow starts of B1</h2>
+<ul>
+<li>On the server side, enumerate and write down on a paper the list of network IP address. <code>all of them</code>. </li>
+<li>On the client side, open a command with administratives right.</li>
+<li>ping each IP address of your list. Note those which fail!</li>
+<li>
+<p>adapt this next command to your configuration, where the field 'remoteip' contains IP which previously failed.</p>
+<p><code>netsh advfirewall firewall add rule name="SAP Connexion" dir=out remoteip=10.xx.xxx.xx,10.yyy.yy.yy action=block</code></p>
+</li>
+<li>
+<p>close the 'command windows' by <code>exit</code>. The state of the last command is permanent.</p>
+</li>
+<li>start your chronograph when double-click your SAP-b1, you will be surprised by the elapsed time!</li>
+</ul>
+<h2 id="explanations">Explanations.</h2>
+<p>In this case, the server has three network cards.</p>
+<div class="highlight"><pre><span></span>10.xx.xxx.xx ==&gt; network for backup
+10.yy.yyy.yy ==&gt; network for administravive tasks
+10.zz.zzz.zz ==&gt; users network
+</pre></div>
+
+
+<p>Third IP is valid ('pingable') outside the datacenter. 'ping' on the others fails!</p>
+<p>This a scenario when SAP client software start, on a computer outside the datacenter.</p>
+<ul>
+<li>start of the software client</li>
+<li>method call to the server 'give me the list of your network cards!"</li>
+<li>for each card in list do<ul>
+<li>stuff with this card (time allowed 3 minutes max)</li>
+<li>exit loop and go further if return_code is OK</li>
+</ul>
+</li>
+<li>endfor</li>
+</ul>
+<p>Two of the three calls never respond. Timeout exception raise at each time. Then, the final user has to wait for a long time.
+You are lucky is the 'user network' is the first of the list. The process start quickly in this case. Anyway, you have no control to alter the list. That's why, sometimes, the start of B1 seem very fast and sometimes, very slowly. (After a monthly reboot of the server in our company. It's a random jackpot)</p>
+<p>Now, with a firewall rule which block IPs, the response is always immediate. OK or KO. Users lose few milliseconds, but not precious minutes.</p>
+<p>SAP B1 start in less than 20 seconds. Users are happy. The boss too.</p>
+<blockquote>
+<p>Time is money. ;-)</p>
+</blockquote>
+
+
+            
+            
+            <hr/>
+            <aside>
+            <nav>
+            <ul class="articles-timeline">
+                <li class="previous-article">« <a href="http:/posts/20150518/datashield-to-splashid-converter/" title="Previous: &#34;Datashield to SplashID converter&#34;">"Datashield to SplashID converter"</a></li>
+                <li class="next-article"><a href="http:/posts/20150602/montage-d-un-raspberry-2-sur-un-moniteur/" title="Next: Montage d&#39;un Raspberry 2 sur un moniteur">Montage d'un Raspberry 2 sur un moniteur</a> »</li>
+            </ul>
+            </nav>
+            </aside>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2015-05-28T12:00:00+02:00">mai 28, 2015</time>
+
+<h4>Last Updated</h4>
+<time datetime="2015-05-28T12:40:00+02:00">mai 28, 2015</time>
+
+            <h4>Category</h4>
+            <a class="category-link" href="http:/categories.html#software-ref">software</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="http:/tags.html#sap-ref">sap
+                    <span>1</span>
+</a></li>
+            </ul>
+<h4>Contact</h4>
+    <a href="https://ehamon.fr/feeds/all.rss.xml" title="Subscribe in a reader" class="sidebar-social-links" target="_blank">
+    <i class="fa fa-rss sidebar-social-links"></i></a>
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>            <script src="http:/theme/jquery.min.js"></script>
+        <script src="http:/theme/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : http://oncrashreboot.com/pelican-elegant -->
+</html>

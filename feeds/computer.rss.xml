@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>A bit closer to heaven</title><link>http:/</link><description></description><lastBuildDate>Wed, 10 Jun 2015 12:40:00 +0200</lastBuildDate><item><title>Nixnote2 sous Debian8 Jessie</title><link>http:/posts/20150610/nixnote2-sous-debian8-jessie/</link><description>&lt;h2 id="evernote-le-bloc-note-dans-le-cloud"&gt;Evernote, le bloc-note dans le cloud&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="evernote" src="/images/20150610/evernote1.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://evernote.com/intl/fr/"&gt;Evernote&lt;/a&gt; est un logiciel de prise de note que j'utilise quotidiennement.&lt;/p&gt;
+&lt;p&gt;Je n'ai pas encore trouvé de meilleur outil. Je m'étonne même qu'Evernote n'ai pas été déjà racheté par un &lt;em&gt;prédateur&lt;/em&gt; de sociétés high-tech sur Internet (Facebook, Google, Microsoft,...). &lt;/p&gt;
+&lt;p&gt;Vers la mi-2012, date à laquelle Google mis fin à son produit &lt;em&gt;Google Notebook&lt;/em&gt;, échaudé , j'ai été contraint de &lt;em&gt;porter&lt;/em&gt; mes notes vers une application &lt;em&gt;alternative&lt;/em&gt;. Evernote a retenu mon attention. Prometteur et stable, Evernote ne me déçoit pas. Bien au contraire, il s'est bonifié avec le temps. La référence en la matière, selon moi.&lt;/p&gt;
+&lt;p&gt;Mes critères pour ce type d'outils:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Interface web (80% de mes accès)&lt;/li&gt;
+&lt;li&gt;Existence d'un client lourd pour smartphone (android) qui doit prendre en compte les spécificités multimédia de la plateforme: appareil photo, sons, esquisses à la &lt;em&gt;main levée&lt;/em&gt;, uploader des photos et pièces jointes,...&lt;/li&gt;
+&lt;li&gt;Possibilité d'import de &lt;em&gt;notes&lt;/em&gt; de produit concurrents. (critère moins pertinent maintenant)&lt;/li&gt;
+&lt;li&gt;Pérennité dans le temps. (être à l'abri des prédation/achat des sociétés qui disparaissent avec leur produit dans la sphère internet)&lt;/li&gt;
+&lt;li&gt;Possibilité d'export des données (je veux garder la maitrise de mes données)&lt;/li&gt;
+&lt;li&gt;Avoir un client lourd sur chaque plateforme que j'utilise habituellement: Windows et Linux&lt;/li&gt;
+&lt;li&gt;Possibilité de consultation/mise à jour des notes en mode &lt;em&gt;offline&lt;/em&gt; (sans accès internet)&lt;/li&gt;
+&lt;li&gt;Pas ou peu de limite dans le volume transféré dans le système (la version de base gratuite Evernote me suffisait pleinement)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="evernote-cloud" src="/images/20150610/evernote2.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Evernote&lt;/em&gt; répond à ces critères sauf pour le client lourd qui manque à l'appel dans un écosystème &lt;em&gt;linux&lt;/em&gt;. La situation n'est pas catastrophique. Une solution existe.&lt;/p&gt;
+&lt;p&gt;NB: Je precise que je me suis abonné à Evernote, pour les soutenir évidemment et aussi pour utiliser pontuellement l'accès sur mes tablettes android.&lt;/p&gt;
+&lt;h2 id="nixnote"&gt;Nixnote&lt;/h2&gt;
+&lt;p&gt;Un groupe de développeurs s'est entiché de construire un système &lt;em&gt;client lourd&lt;/em&gt; (multi-plateforme) pour Evernote. Le produit s'appelle &lt;a href="http://sourceforge.net/projects/nevernote/"&gt;Nixnote&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="nixnote" src="/images/20150610/nixnote-evernote0.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Je l'utilise principalement pour faire un &lt;em&gt;backup&lt;/em&gt; régulier, en local, de mes fiches Evernote.&lt;/p&gt;
+&lt;p&gt;En cas d'indisponibilité du site Evernote et/ou de la connexion internet de la maison, je peux ainsi travailler sur mes fiches et &lt;em&gt;resynchroniser&lt;/em&gt; par la suite, mes différents environnements.&lt;/p&gt;
+&lt;p&gt;Nixnote fonctionnait bien jusqu'à peu sur mon poste de travail Debian.&lt;/p&gt;
+&lt;p&gt;Un matin, j'ai constaté que la &lt;em&gt;synchronisation&lt;/em&gt; ne fonctionnait plus, signe que les API Evernote ont évoluées. Il était temps de mettre à jour Nixnote sur mon poste.&lt;/p&gt;
+&lt;h3 id="incompatibilite-de-la-nouvelle-version-nixnote"&gt;incompatibilité de la nouvelle version Nixnote&lt;/h3&gt;
+&lt;p&gt;Je désinstalle la version installée&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get remove nixnote
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Puis télécharge la dernière version en date de nixnote &lt;em&gt;nixnote2-2.0-beta3_amd64.deb&lt;/em&gt; et l'installe par:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo dpkg -i nixnote2-2.0-beta3_amd64.deb
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Et paff. çà coince. Le paquet ne s'installe pas car une dépendance d'une librairie est non satisfaite.&lt;/p&gt;
+&lt;p&gt;Explication:
+Nixnote a besoin d'une version de la librairie &lt;em&gt;libpoppler&lt;/em&gt; inférieure ou égale à &lt;em&gt;44&lt;/em&gt;. Or sur la toute récente &lt;em&gt;Debian 8&lt;/em&gt;, on dispose d'une version plus récente: &lt;em&gt;libpoppler46&lt;/em&gt; (recherche par: &lt;em&gt;sudo apt-cache search libpoppler4&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;L'astuce consiste à modifier le paquet &lt;em&gt;à problème&lt;/em&gt; pour lever la &lt;em&gt;dépendance&lt;/em&gt;. C'est un problème assez récurrent quand le paquet n'est pas dans un dépot officiel &lt;em&gt;debian&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;J'ai suivi le HOWTO du forum &lt;a href="http://ubuntuforums.org/showthread.php?t=636724"&gt;ubuntuforums.org&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Copier le fichier &lt;em&gt;videbcontrol&lt;/em&gt; dans le répertoire &lt;em&gt;/usr/local/bin&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;videbcontrol nixnote2-2.0-beta3_amd64.deb  
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;On se retrouve sous l'éditeur texte &lt;em&gt;&lt;a href="http://fr.wikipedia.org/wiki/Vim"&gt;vim&lt;/a&gt;&lt;/em&gt; avec le contenu suivant:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;Package&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;nixnote2&lt;/span&gt;
+&lt;span class="n"&gt;Version&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;2.0&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;beta3&lt;/span&gt;
+&lt;span class="n"&gt;Section&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;x11&lt;/span&gt;
+&lt;span class="n"&gt;Priority&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;optional&lt;/span&gt;
+&lt;span class="n"&gt;Architecture&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;amd64&lt;/span&gt;
+&lt;span class="n"&gt;Installed&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;Size&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;133120&lt;/span&gt;
+&lt;span class="n"&gt;Depends&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;libc6&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libhunspell&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;1.3&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libpoppler&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;qt4&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="n"&gt;libqtwebkit4&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libqt4&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;sql&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libqt4&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;sql&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;sqlite&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libqt4&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;xml&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libqtgui4&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libqt4&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;network&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libqtcore4&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libpng12&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libpoppler28&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;libpoppler43&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;libpoppler44&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libsqlite3&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libtbb2&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libopenexr6&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;tidy&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libavcodec53&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;libavcodec54&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;libavcodec&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;extra&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;53&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;libavcodec&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;extra&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;54&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;  &lt;span class="n"&gt;libavformat53&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;libavformat54&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="n"&gt;libavformat&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;extra&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;53&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;libavformat&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;extra&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;54&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libswscale2&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;libswscale&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;extra&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libdc1394&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;22&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libopencv&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;core2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libopencv&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;highgui2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;
+&lt;span class="n"&gt;Recommends&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;mimetex&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;libreoffice&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;common&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="n"&gt;openjdk&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;jre&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;openjdk&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;jdk&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;sun&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;java7&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;jdk&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;sun&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;java7&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;jre&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;java7&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;sdk&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;java7&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;runtime&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="k"&gt;default&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;jre&lt;/span&gt;
+&lt;span class="n"&gt;Maintainer&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Randy&lt;/span&gt; &lt;span class="n"&gt;Baumgarte&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;randy&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;fbn&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;cx&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="n"&gt;Description&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="n"&gt;Open&lt;/span&gt; &lt;span class="n"&gt;Source&lt;/span&gt; &lt;span class="n"&gt;Evernote&lt;/span&gt; &lt;span class="n"&gt;client&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+ &lt;span class="n"&gt;NixNote&lt;/span&gt; &lt;span class="k"&gt;is&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;client&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;Evernote&lt;/span&gt; &lt;span class="n"&gt;service&lt;/span&gt; &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="n"&gt;www&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;evernote&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;com&lt;/span&gt;&lt;span class="o"&gt;).&lt;/span&gt;  &lt;span class="n"&gt;It&lt;/span&gt;  &lt;span class="n"&gt;will&lt;/span&gt; &lt;span class="n"&gt;allow&lt;/span&gt; &lt;span class="n"&gt;synchronization&lt;/span&gt; &lt;span class="n"&gt;and&lt;/span&gt; &lt;span class="n"&gt;editing&lt;/span&gt; &lt;span class="n"&gt;of&lt;/span&gt; &lt;span class="n"&gt;notes&lt;/span&gt; &lt;span class="n"&gt;from&lt;/span&gt; &lt;span class="n"&gt;your&lt;/span&gt; &lt;span class="n"&gt;local&lt;/span&gt; &lt;span class="n"&gt;system&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Ajouter &lt;em&gt;libpoppler46&lt;/em&gt; dans la ligne &lt;em&gt;Depends&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Sauver le fichier et quitter l'éditeur. (:wq)&lt;/li&gt;
+&lt;li&gt;Le fichier &lt;em&gt;nixnote2-2.0-beta3_amd64.modified.deb&lt;/em&gt; est généré.&lt;/li&gt;
+&lt;li&gt;On installe finalement le nouveau paquet.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo apt-get remove nixnote2
+sudo dpkg -i nixnote2-2.0-beta3_amd64.modified.deb
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Voilà, voilà.&lt;/p&gt;
+&lt;p&gt;It runs as expect!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="nixnote-about" src="/images/20150610/nixnote2-info.png" /&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Eric HAMON</dc:creator><pubDate>Wed, 10 Jun 2015 12:40:00 +0200</pubDate><guid isPermaLink="false">tag:,2015-06-10:posts/20150610/nixnote2-sous-debian8-jessie/</guid><category>debian</category><category>bureautique</category></item><item><title>Montage d'un Raspberry 2 sur un moniteur</title><link>http:/posts/20150602/montage-d-un-raspberry-2-sur-un-moniteur/</link><description>&lt;p&gt;&lt;img alt="raspberry01" src="/photos/201505raspberry/20150530_140436a.jpg" /&gt;&lt;/p&gt;
+&lt;h2 id="cout-approximatif"&gt;Cout approximatif&lt;/h2&gt;
+&lt;p&gt;(les éléments sont disponibles sur Amazon)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ecran: 70 euros&lt;/li&gt;
+&lt;li&gt;Raspberry2: 44 euros&lt;/li&gt;
+&lt;li&gt;Boitier: &lt;em&gt;Pibow Rainbow pour Raspberry Pi (2 &amp;amp; B+)&lt;/em&gt;  18 euros&lt;/li&gt;
+&lt;li&gt;carte &lt;em&gt;PiBow VESA Mounting Layer Plate ID: 1320&lt;/em&gt;. 10 euros (hors amazon)&lt;/li&gt;
+&lt;li&gt;carte microSD Samsung de 32 Go  17 euros&lt;/li&gt;
+&lt;li&gt;Cable hdmi: 5 euros&lt;/li&gt;
+&lt;li&gt;Chargeur &lt;em&gt;EZOPower 3.1A 15W Chargeur USB secteur avec 2 ports - Noir, Chargeur prise mural d'europe UE&lt;/em&gt;   8 euros &lt;/li&gt;
+&lt;li&gt;Dongle WIFI: &lt;em&gt;Edimax EW-7811UN Nano Adaptateur clé USB sans fil 150 Mbps&lt;/em&gt;  13 euros&lt;/li&gt;
+&lt;li&gt;Clavier *Logitech Wireless Combo MK520 *   46 euros&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Total: 231 euros environ&lt;/p&gt;
+&lt;h2 id="systeme"&gt;Système&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Ubuntu MATE&lt;/em&gt; pour Raspberry.&lt;/p&gt;
+&lt;h2 id="logiciels"&gt;logiciels&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Firefox&lt;/li&gt;
+&lt;li&gt;LibreOffice&lt;/li&gt;
+&lt;li&gt;... &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Et du temps évidemment. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Eric HAMON</dc:creator><pubDate>Tue, 02 Jun 2015 12:40:00 +0200</pubDate><guid isPermaLink="false">tag:,2015-06-02:posts/20150602/montage-d-un-raspberry-2-sur-un-moniteur/</guid><category>raspberry</category></item></channel></rss>

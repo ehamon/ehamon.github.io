@@ -1,0 +1,2553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scriptfile>
+    <settings program="actionaz" version="3.8.0" scriptVersion="1.1.0" os="GNU/Linux"/>
+    <actions>
+        <action name="ActionStop" version="1.0.0"/>
+        <action name="ActionWindow" version="1.0.0"/>
+        <action name="ActionCallProcedure" version="1.0.0"/>
+        <action name="ActionNoop" version="1.0.0"/>
+        <action name="ActionEndProcedure" version="1.0.0"/>
+        <action name="ActionLoop" version="1.0.0"/>
+        <action name="ActionMessageBox" version="1.0.0"/>
+        <action name="ActionClick" version="1.0.0"/>
+        <action name="ActionVariable" version="1.0.0"/>
+        <action name="ActionCode" version="1.0.0"/>
+        <action name="ActionVariableCondition" version="1.0.0"/>
+        <action name="ActionConsole" version="1.0.0"/>
+        <action name="ActionBeginProcedure" version="1.0.0"/>
+        <action name="ActionPause" version="1.0.0"/>
+    </actions>
+    <parameters/>
+    <resources/>
+    <script pauseBefore="0" pauseAfter="0">
+        <action name="ActionVariable" comment="PosFlip">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosFlip</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">694:515</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosFlop">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosFlop</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">671:667</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosMine_ext">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosMine_ext</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">1333:813</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosMine1">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosMine1</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">463:765</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosMine2">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosMine2</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">270:620</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosMine3">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosMine3</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">383:268</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosMine4">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosMine4</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">1180:370</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosMine5">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosMine5</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">944:362</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosMine6">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosMine6</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">837:294</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosClicMineRecolte">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosClicMineRecolte</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">1110:938</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosExilir1">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosExilir1</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">291:810</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosExilir2">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosExilir2</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">597:154</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosExilir3">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosExilir3</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">1309:439</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosExilir4">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosExilir4</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">1128:749</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosExilir5">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosExilir5</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">820:138</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosExilir6">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosExilir6</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">685:57</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosExilirNoire1">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosExilirNoire1</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">866:315</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosClicElixirRecolte">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosClicElixirRecolte</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">1109:934</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosAndroidHome">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosAndroidHome</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">1652:980</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosAndroidClashOfClan">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosAndroidClashOfClan</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">532:683</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosCleanMaster">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosCleanMaster</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">532:356</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="PosMsgboxServer_six_hours">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">PosMsgboxServer_six_hours</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">816:628</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionCode" comment="Chrono_all_declare">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="code">
+                <subParameter name="value" code="1">var Chrono_relanceSoft_start = new Date().getTime() / 1000;
+var Chrono_relanceHard_start = new Date().getTime() / 1000;
+var Chrono_collecteOr_start = new Date().getTime() / 1000;
+var Chrono_collecteElixir_start = new Date().getTime() / 1000;
+</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="Chrono_relanceSoft_max=3600 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">Chrono_relanceSoft_max</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">integer</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0">3600</subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="Chrono_relanceHard_max=14400 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">Chrono_relanceHard_max</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">integer</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0">14400</subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="Chrono_collecteOr_max=60 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">Chrono_collecteOr_max</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">integer</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0">60</subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="Chrono_collecteElixir_max=60 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">Chrono_collecteElixir_max</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">integer</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0">60</subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariable" comment="TempoFlipFlop (20 sec)">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">TempoFlipFlop</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">integer</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0">20</subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionWindow" comment="Selection ClashOfClan" pauseAfter="300">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="title">
+                <subParameter name="value" code="0">Genymotion pour usage personnel - Samsung Galaxy S4 - 4.2.2 - API 17 - 1080x1920 (1024x768, 160dpi) - 192.168.56.101</subParameter>
+            </parameter>
+            <parameter name="resizeHeight">
+                <subParameter name="value" code="0">0</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">setForeground</subParameter>
+            </parameter>
+            <parameter name="movePosition">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="useBorders">
+                <subParameter name="value" code="0">true</subParameter>
+            </parameter>
+            <parameter name="resizeWidth">
+                <subParameter name="value" code="0">0</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionCallProcedure" comment="RedemarrageCOC" enabled="false">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="name">
+                <subParameter name="value" code="0">RedemarrageCOC</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionMessageBox" comment="Question: Redemarrer COC?" enabled="false">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="windowIcon">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="message">
+                <subParameter name="value" code="0">Faut-il relancer Clash Of Clans?</subParameter>
+            </parameter>
+            <parameter name="title">
+                <subParameter name="value" code="0">Premier démarrage...</subParameter>
+            </parameter>
+            <parameter name="textMode">
+                <subParameter name="value" code="0">automatic</subParameter>
+            </parameter>
+            <parameter name="ifYes">
+                <subParameter name="line" code="0">RedemarrageCOC</subParameter>
+                <subParameter name="action" code="0">call_procedure</subParameter>
+            </parameter>
+            <parameter name="customIcon">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="icon">
+                <subParameter name="value" code="0">question</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">yesno</subParameter>
+            </parameter>
+            <parameter name="ifNo">
+                <subParameter name="line" code="0"></subParameter>
+                <subParameter name="action" code="0">do_nothing</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionStop" enabled="false">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+        </action>
+        <action name="ActionCallProcedure" comment="&amp;TestDemarrageBOT()" enabled="false">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="name">
+                <subParameter name="value" code="0">TestDemarrageBOT</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionNoop" label="B1" comment="DebutPROG">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+        </action>
+        <action name="ActionCallProcedure" comment="&amp;AntiDeconnexion()">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="name">
+                <subParameter name="value" code="0">AntiDeconnexion</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionMessageBox">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="windowIcon">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="message">
+                <subParameter name="value" code="0">Fin du programme</subParameter>
+            </parameter>
+            <parameter name="title">
+                <subParameter name="value" code="0">Info</subParameter>
+            </parameter>
+            <parameter name="textMode">
+                <subParameter name="value" code="0">automatic</subParameter>
+            </parameter>
+            <parameter name="ifYes">
+                <subParameter name="line" code="0"></subParameter>
+                <subParameter name="action" code="0">do_nothing</subParameter>
+            </parameter>
+            <parameter name="customIcon">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="icon">
+                <subParameter name="value" code="0">information</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">ok</subParameter>
+            </parameter>
+            <parameter name="ifNo">
+                <subParameter name="line" code="0"></subParameter>
+                <subParameter name="action" code="0">do_nothing</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionStop" pauseAfter="500">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+        </action>
+        <action name="ActionBeginProcedure" comment="FlipFlop">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="name">
+                <subParameter name="value" code="0">FlipFlop</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="$PosFlip">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosFlip</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionCallProcedure" comment="&amp;CollecteRessourcesOr" pauseAfter="100">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="name">
+                <subParameter name="value" code="0">CollecteRessourcesOr</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionCallProcedure" comment="&amp;CollecteRessourcesExilir" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="name">
+                <subParameter name="value" code="0">CollecteRessourcesExilir</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" comment="$TempoFlipFlop">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="1">TempoFlipFlop</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="$PosFlop">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosFlop</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" comment="$TempoFlipFlop">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="1">TempoFlipFlop</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionEndProcedure">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+        </action>
+        <action name="ActionBeginProcedure" comment="RestartGame">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="name">
+                <subParameter name="value" code="0">RestartGame</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="$PosAndroidHome" pauseAfter="500">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosAndroidHome</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" comment="2 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">2</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="$PosAndroidClashOfClan" pauseAfter="500">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">2</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosAndroidClashOfClan</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" comment="2 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">2</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionCode" comment="relanceSoft reset time">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="code">
+                <subParameter name="value" code="1">var Chrono_relanceSoft_start = new Date().getTime() / 1000;
+</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionEndProcedure">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+        </action>
+        <action name="ActionBeginProcedure" comment="AntiDeconnexion">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="name">
+                <subParameter name="value" code="0">AntiDeconnexion</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionCallProcedure" label="A2" comment="&amp;FlipFlop()">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="name">
+                <subParameter name="value" code="0">FlipFlop</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionCode" comment="ChronoDiff">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="code">
+                <subParameter name="value" code="1">var Chrono_relanceSoft_stop = new Date().getTime() / 1000;
+var Chrono_relanceHard_stop = new Date().getTime() / 1000;
+var Chrono_collecteOr_stop = new Date().getTime() / 1000;
+var Chrono_collecteElixir_stop = new Date().getTime() / 1000;
+
+var Chrono_relanceSoft_diff = Math.floor( Chrono_relanceSoft_stop - Chrono_relanceSoft_start );
+var Chrono_relanceHard_diff = Math.floor( Chrono_relanceHard_stop - Chrono_relanceHard_start );
+var Chrono_collecteOr_diff = Math.floor( Chrono_collecteOr_stop - Chrono_collecteOr_start );
+var Chrono_collecteElixir_diff = Math.floor( Chrono_collecteElixir_stop - Chrono_collecteElixir_start );
+</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariableCondition" comment="&amp;RelanceSoft() si tps écoulé">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="ifEqual">
+                <subParameter name="line" code="0">RestartGame</subParameter>
+                <subParameter name="action" code="0">call_procedure</subParameter>
+            </parameter>
+            <parameter name="comparison">
+                <subParameter name="value" code="0">superiorEqual</subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">Chrono_relanceSoft_diff</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0">$Chrono_relanceSoft_max</subParameter>
+            </parameter>
+            <parameter name="ifDifferent">
+                <subParameter name="line" code="0"></subParameter>
+                <subParameter name="action" code="0">do_nothing</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariableCondition" comment="&amp;RelanceHard() si tps écoulé">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="ifEqual">
+                <subParameter name="line" code="0">RedemarrageCOC</subParameter>
+                <subParameter name="action" code="0">call_procedure</subParameter>
+            </parameter>
+            <parameter name="comparison">
+                <subParameter name="value" code="0">superiorEqual</subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">Chrono_relanceHard_diff</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0">$Chrono_relanceHard_max</subParameter>
+            </parameter>
+            <parameter name="ifDifferent">
+                <subParameter name="line" code="0"></subParameter>
+                <subParameter name="action" code="0">do_nothing</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariableCondition" comment="&amp;CollecteRessourcesOr() si tps écoulé">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="ifEqual">
+                <subParameter name="line" code="0">CollecteRessourcesOr</subParameter>
+                <subParameter name="action" code="0">call_procedure</subParameter>
+            </parameter>
+            <parameter name="comparison">
+                <subParameter name="value" code="0">superiorEqual</subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">Chrono_collecteOr_diff</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0">$Chrono_collecteOr_max</subParameter>
+            </parameter>
+            <parameter name="ifDifferent">
+                <subParameter name="line" code="0"></subParameter>
+                <subParameter name="action" code="0">do_nothing</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionVariableCondition" comment="&amp;CollecteRessourcesElixir() si tps écoulé">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="ifEqual">
+                <subParameter name="line" code="0">CollecteRessourcesExilir</subParameter>
+                <subParameter name="action" code="0">call_procedure</subParameter>
+            </parameter>
+            <parameter name="comparison">
+                <subParameter name="value" code="0">superiorEqual</subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">Chrono_collecteElixir_diff</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0">$Chrono_collecteElixir_max</subParameter>
+            </parameter>
+            <parameter name="ifDifferent">
+                <subParameter name="line" code="0"></subParameter>
+                <subParameter name="action" code="0">do_nothing</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionLoop" comment="goto A2">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="line">
+                <subParameter name="value" code="0">A2</subParameter>
+            </parameter>
+            <parameter name="count">
+                <subParameter name="value" code="0">40000</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionEndProcedure">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+        </action>
+        <action name="ActionBeginProcedure" comment="TestDemarrageBOT">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="name">
+                <subParameter name="value" code="0">TestDemarrageBOT</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionConsole">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="output">
+                <subParameter name="value" code="0">information</subParameter>
+            </parameter>
+            <parameter name="text">
+                <subParameter name="value" code="0">Debut du testDemarrageBOT</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="$PosFlop">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosFlop</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" comment="3 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">3</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="$PosFlip">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosFlip</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" comment="3 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">3</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionCallProcedure" comment="&amp;CollecteRessourcesOr()" pauseAfter="100">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="name">
+                <subParameter name="value" code="0">CollecteRessourcesOr</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionCallProcedure" comment="&amp;CollecteRessourcesExilir()" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="name">
+                <subParameter name="value" code="0">CollecteRessourcesExilir</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="$PosMsgboxServer_six_hours" pauseAfter="100">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosMsgboxServer_six_hours</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionCallProcedure" label="A3" comment="&amp;RestartGame()">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="name">
+                <subParameter name="value" code="0">RestartGame</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" comment="3 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">3</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionConsole">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="output">
+                <subParameter name="value" code="0">information</subParameter>
+            </parameter>
+            <parameter name="text">
+                <subParameter name="value" code="0">Fin du testDemarrageBOT</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionEndProcedure">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+        </action>
+        <action name="ActionBeginProcedure" comment="RedemarrageCOC">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="name">
+                <subParameter name="value" code="0">RedemarrageCOC</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionWindow" comment="Selection ClashOfClan" pauseAfter="300">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="title">
+                <subParameter name="value" code="0">Genymotion pour usage personnel - Samsung Galaxy S4 - 4.2.2 - API 17 - 1080x1920 (1024x768, 160dpi) - 192.168.56.102</subParameter>
+            </parameter>
+            <parameter name="resizeHeight">
+                <subParameter name="value" code="0">0</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">setForeground</subParameter>
+            </parameter>
+            <parameter name="movePosition">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="useBorders">
+                <subParameter name="value" code="0">true</subParameter>
+            </parameter>
+            <parameter name="resizeWidth">
+                <subParameter name="value" code="0">0</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="$PosAndroidHome" pauseAfter="500">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosAndroidHome</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" comment="2 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">2</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionConsole" comment="Appel CleanMaster">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="output">
+                <subParameter name="value" code="0">information</subParameter>
+            </parameter>
+            <parameter name="text">
+                <subParameter name="value" code="0">Appel CleanMaster</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="&amp;PosCleanMaster" pauseAfter="500">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosCleanMaster</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" comment="2 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">2</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionConsole" comment="Appel ClicMenuContextuel">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="output">
+                <subParameter name="value" code="0">information</subParameter>
+            </parameter>
+            <parameter name="text">
+                <subParameter name="value" code="0">Appel ClicMenuContextuel</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="ClicMenuContextuel" pauseAfter="500">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">816:1027</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" comment="2 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">2</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionConsole" comment="Appel ClicOptimisationMemoire">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="output">
+                <subParameter name="value" code="0">information</subParameter>
+            </parameter>
+            <parameter name="text">
+                <subParameter name="value" code="0">Appel ClicOptimisationMemoire</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="ClicOptimisationMemoire" pauseAfter="500">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">630:753</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" comment="2 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">2</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionConsole" comment="ClicPanelMemoire">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="output">
+                <subParameter name="value" code="0">information</subParameter>
+            </parameter>
+            <parameter name="text">
+                <subParameter name="value" code="0">ClicPanelMemoire</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="ClicPanelMemoire" pauseAfter="500">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">998:160</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" comment="2 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">2</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionConsole" comment="ClicProcessusCOC">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="output">
+                <subParameter name="value" code="0">information</subParameter>
+            </parameter>
+            <parameter name="text">
+                <subParameter name="value" code="0">ClicProcessusCOC</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="ClicProcessusCOC" pauseAfter="500">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">562:346</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" comment="2 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">2</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionConsole" comment="ClicForcerArret">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="output">
+                <subParameter name="value" code="0">information</subParameter>
+            </parameter>
+            <parameter name="text">
+                <subParameter name="value" code="0">ClicForcerArret</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="ClicForcerArret" pauseAfter="500">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">469:283</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" comment="2 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">2</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionConsole" comment="ClicValiderArret">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="output">
+                <subParameter name="value" code="0">information</subParameter>
+            </parameter>
+            <parameter name="text">
+                <subParameter name="value" code="0">ClicValiderArret</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="ClicValiderArret" pauseAfter="500">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0">999:659</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" comment="2 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">2</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionConsole" comment="Clic $PosAndroidHome">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="output">
+                <subParameter name="value" code="0">information</subParameter>
+            </parameter>
+            <parameter name="text">
+                <subParameter name="value" code="0">Clic $PosAndroidHome</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="$PosAndroidHome" pauseAfter="500">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosAndroidHome</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" comment="2 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">2</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="$PosAndroidClashOfClan" pauseAfter="500">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">2</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosAndroidClashOfClan</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause" comment="20 secs">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">20</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionCode" comment="relanceHard reset time">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="code">
+                <subParameter name="value" code="1">var Chrono_relanceHard_start = new Date().getTime() / 1000;
+</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionEndProcedure">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+        </action>
+        <action name="ActionBeginProcedure" comment="CollecteRessourcesOr">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="name">
+                <subParameter name="value" code="0">CollecteRessourcesOr</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="Posmine_ext" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosMine_ext</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="Posmine1" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosMine1</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="PosClicMineRecolte" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosClicMineRecolte</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="Posmine_ext" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosMine_ext</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="Posmine2" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosMine2</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="PosClicMineRecolte" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosClicMineRecolte</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="Posmine_ext" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosMine_ext</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="Posmine3" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosMine3</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="PosClicMineRecolte" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosClicMineRecolte</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="Posmine_ext" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosMine_ext</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="Posmine4" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosMine4</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="PosClicMineRecolte" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosClicMineRecolte</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="Posmine_ext" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosMine_ext</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="Posmine5" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosMine5</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="PosClicMineRecolte" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosClicMineRecolte</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="Posmine_ext" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosMine_ext</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="Posmine6" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosMine6</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="PosClicMineRecolte" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosClicMineRecolte</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionCode" comment="CollecteRessourcesOr reset time">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="code">
+                <subParameter name="value" code="1">var Chrono_collecteOr_start = new Date().getTime() / 1000;
+</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionEndProcedure">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+        </action>
+        <action name="ActionBeginProcedure" comment="CollecteRessourcesExilir">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="name">
+                <subParameter name="value" code="0">CollecteRessourcesExilir</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="$PosExilir1" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosExilir1</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="PosClicElixirRecolte" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosClicElixirRecolte</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="$PosExilir2" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosExilir2</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="PosClicElixirRecolte" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosClicElixirRecolte</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="$PosExilir3" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosExilir3</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="PosClicElixirRecolte" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosClicElixirRecolte</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="$PosExilir4" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosExilir4</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="PosClicElixirRecolte" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosClicElixirRecolte</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="$PosExilir5" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosExilir5</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="PosClicElixirRecolte" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosClicElixirRecolte</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="$PosExilir6" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosExilir6</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="PosClicElixirRecolte" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosClicElixirRecolte</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="$PosExilirNoire1" enabled="false" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosExilirNoire1</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionClick" comment="PosClicElixirRecolte" enabled="false" pauseAfter="200">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <exception id="32" action="0" line=""/>
+            <exception id="33" action="0" line=""/>
+            <parameter name="button">
+                <subParameter name="value" code="0">left</subParameter>
+            </parameter>
+            <parameter name="action">
+                <subParameter name="value" code="0">pressRelease</subParameter>
+            </parameter>
+            <parameter name="amount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">PosClicElixirRecolte</subParameter>
+            </parameter>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionCode" comment="CollecteRessourcesExilir reset time">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="code">
+                <subParameter name="value" code="1">var Chrono_collecteElixir_start = new Date().getTime() / 1000;
+</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionEndProcedure">
+            <exception id="0" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+        </action>
+    </script>
+</scriptfile>
