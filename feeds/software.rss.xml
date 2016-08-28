@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>A bit closer to heaven</title><link>https://ehamon.github.io/</link><description></description><lastBuildDate>Fri, 05 Jun 2015 12:40:00 +0200</lastBuildDate><item><title>Clash of Clans played by a novice bot</title><link>https://ehamon.github.io/posts/20150605/clash-of-clans-by-a-novice-bot/</link><description>&lt;p&gt;&lt;img alt="COC-level7" src="/photos/clashofclans/screenshot_2015-05-30-17-21-08a.jpg" /&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>A bit closer to heaven</title><link>https://ehamon.github.io/</link><description></description><lastBuildDate>Sun, 28 Aug 2016 12:40:00 +0200</lastBuildDate><item><title>La météo en ligne de commande...</title><link>https://ehamon.github.io/posts/20160828/la-meteo-en-ligne-de-commande/</link><description>&lt;p&gt;&lt;img alt="COC-level7" src="/photos/201608-meteo/20160828-meteo-with-curl-01a.jpg" /&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;curl wttr.in/Gretz-Armainvilliers
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;hr /&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Eric HAMON</dc:creator><pubDate>Sun, 28 Aug 2016 12:40:00 +0200</pubDate><guid isPermaLink="false">tag:ehamon.github.io,2016-08-28:posts/20160828/la-meteo-en-ligne-de-commande/</guid><category>software</category></item><item><title>Clash of Clans played by a novice bot</title><link>https://ehamon.github.io/posts/20150605/clash-of-clans-by-a-novice-bot/</link><description>&lt;p&gt;&lt;img alt="COC-level7" src="/photos/clashofclans/screenshot_2015-05-30-17-21-08a.jpg" /&gt;&lt;/p&gt;
 &lt;div class="toc"&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#introduction"&gt;Introduction&lt;/a&gt;&lt;/li&gt;

@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://ehamon.github.io/</loc>
-<lastmod>2016-05-21T17:46:31-00:00</lastmod>
+<lastmod>2016-08-28T17:49:33-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://ehamon.github.io/archives.html</loc>
-<lastmod>2016-05-21T17:46:31-00:00</lastmod>
+<lastmod>2016-08-28T17:49:33-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://ehamon.github.io/tags.html</loc>
-<lastmod>2016-05-21T17:46:31-00:00</lastmod>
+<lastmod>2016-08-28T17:49:33-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://ehamon.github.io/categories.html</loc>
-<lastmod>2016-05-21T17:46:31-00:00</lastmod>
+<lastmod>2016-08-28T17:49:33-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -35,6 +35,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>https://ehamon.github.io/pages/contact/</loc>
 <lastmod>2015-05-11T14:10:00+02:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://ehamon.github.io/posts/20160828/la-meteo-en-ligne-de-commande/</loc>
+<lastmod>2016-08-28T12:40:00+02:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -124,7 +131,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://ehamon.github.io/category/software.html</loc>
-<lastmod>2015-06-05T12:40:00+00:09</lastmod>
+<lastmod>2016-08-28T12:40:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -132,13 +139,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://ehamon.github.io/tag/sap.html</loc>
 <lastmod>2015-05-28T12:40:00+00:09</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://ehamon.github.io/tag/game.html</loc>
-<lastmod>2015-06-05T12:40:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -152,6 +152,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://ehamon.github.io/tag/coc.html</loc>
+<lastmod>2015-06-05T12:40:00+00:09</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://ehamon.github.io/tag/game.html</loc>
 <lastmod>2015-06-05T12:40:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -173,14 +180,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://ehamon.github.io/tag/software.html</loc>
-<lastmod>2015-06-05T12:40:00+00:09</lastmod>
+<lastmod>2016-08-28T12:40:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://ehamon.github.io/author/eric-hamon.html</loc>
-<lastmod>2015-06-10T12:40:00+00:09</lastmod>
+<lastmod>2016-08-28T12:40:00+00:09</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
